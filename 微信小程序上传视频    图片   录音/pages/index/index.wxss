@@ -1,0 +1,326 @@
+.report_item {
+    padding: 6rpx 20rpx;
+    font-size: 32rpx;
+    line-height: 90rpx;
+    margin-bottom: 20rpx;
+}
+.report_item image{
+  width:25px;
+  height: 25px;
+  line-height: 90rpx;
+  float:left;
+  margin-top:20rpx;
+}
+.report_item icon{
+  font-size:40rpx;
+  margin-right:10rpx;
+}
+.report_icon {
+    display: inline-block;
+    width: 50rpx;
+    height: 50rpx;
+    vertical-align: middle;
+    margin-right: 20rpx;
+}
+
+.uploadimg {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.uploadimg .uploadimg_item {
+    flex-flow: row;
+    text-align: center;
+    width: 236.5rpx;
+    height: 180rpx;
+    line-height: 180rpx;
+    text-align: center;
+    margin-bottom: 20rpx;
+    position: relative;
+}
+
+.delImg {
+    right: 8rpx;
+    top: -15rpx;
+}
+
+.uploadimg .uploadimg_img {
+    width: 180rpx;
+    height: 180rpx;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.direction {
+    font-size: 30rpx;
+    color: #71bb42;
+}
+
+.direction .wx-checkbox-input {
+    width: 35rpx;
+    height: 35rpx;
+    margin: -4rpx 20rpx 0 8rpx;
+}
+
+.report_item textarea {
+    width: 99%;
+    height: 200rpx;
+    border: 1px solid #e1e1e1;
+    border-radius: 4rpx;
+    line-height: 50rpx;
+    padding: 10rpx 20rpx;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.report_item input {
+    text-align: right;
+    border-radius: 4rpx;
+    width: 500rpx;
+    vertical-align: middle;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.report_item input {
+    height: 70rpx;
+    vertical-align: middle;
+}
+
+.report_item .voice {
+    float: right;
+    display: inline-block;
+}
+
+.report_item .voice image {
+    width: 50rpx!important;
+    height: 50rpx!important;
+    margin: 0 20rpx;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+button.record {
+    background-color: rgba(0,0,0,0.2);
+    border: none;
+    width: 480rpx!important;
+    height: 70rpx!important;
+    line-height: 70rpx!important;
+    font-size: 28rpx;
+    border-radius: 6rpx;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    margin-top: 12rpx;
+    margin-right: 5rpx;
+}
+
+button.record-hover1 {
+    background-color: rgba(0,0,0,0.35)!important;
+}
+
+button.record-hover {
+    background-color: rgba(0,0,0,0.35)!important;
+}
+
+.report_rightText {
+    width: 500rpx;
+    text-align: right;
+    vertical-align: middle;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.report_address {
+    width: 500rpx;
+    text-align: right;
+    vertical-align: middle;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+button.submit {
+    background-color: #71bb42!important;
+    margin: 20rpx auto 30rpx auto!important;
+    width: 688rpx!important;
+    height: 86rpx!important;
+    line-height: 85rpx!important;
+    box-sizing: border-box;
+}
+
+button[disabled][type="primary"] {
+    background: rgba(0,0,0,.3)!important;
+    color: #fff!important;
+}
+
+.line {
+    margin: 0rpx auto;
+    width:100%;
+    height:2rpx;
+    background:#d9d9d9;
+}
+
+.openSet {
+    background: transparent!important;
+    color: #bfbfbf!important;
+    font-size: 30rpx!important;
+    text-align: right;
+    border: none;
+    padding: 5rpx;
+}
+
+.openSet:after {
+    border: none;
+}
+
+.report_box{
+  width:100%;
+  height:auto;
+  overflow: hidden;
+}
+.report_content{
+  padding-bottom:140rpx;
+}
+.report_type{
+  width:92%;
+  height:80rpx;
+  border-bottom:1px solid #d9d9d9;
+  padding:0 4%;
+  background: #fff;
+}
+.report_type text{
+  display:block;
+  float:left;
+  font-size: 0.8rem;
+  line-height: 80rpx;
+  width:20%;
+}
+.report_type input{
+  width:70%;
+  float:right;
+  height:80rpx;
+  line-height: 80rpx;
+  font-size:0.8rem;
+  text-align: right;
+  margin-right:-80rpx;
+}
+.lawAdviceDetail_name{
+  width:92%;
+  height:80rpx;
+  border-bottom:1px solid #d9d9d9;
+  padding:0 4%;
+  background: #fff;
+}
+.lawAdviceDetail_name text{
+  display:block;
+  float:left;
+  font-size: 0.8rem;
+  line-height: 80rpx;
+  width:20%;
+}
+.lawAdviceDetail_name input{
+  width:70%;
+  float:right;
+  height:80rpx;
+  line-height: 80rpx;
+  font-size:0.8rem;
+  text-align: right;
+}
+.picker_select{
+  float:right;
+}
+.picker_select view p{
+  font-size:0.8rem;
+  line-height:75rpx;
+}
+.type_iconclass{
+  float:left;
+  font-size:1.2rem;
+  color:#81B754;
+  margin-right:20rpx;
+}
+.report_detail{
+  width:98%;
+  height:auto;
+  overflow: hidden;
+  padding:0 1%;
+  background: #fff;
+  font-size:0.8rem;
+  margin-bottom: 15rpx;
+}
+.report_detail text{
+  line-height: 80rpx;
+}
+.report_detail textarea{
+  width:94%;
+  height:190rpx;
+  border:1px solid #d9d9d9;
+  padding:3%;
+  border-radius:4px;
+}
+.report_detail image{
+  width:200rpx;
+  height:200rpx;
+  display:block;
+}
+.law_agreeradio{
+  padding:3%;
+  font-size:0.8rem;
+}
+.agreen_button{
+  width:92%;
+  margin:4%;
+  background:#81B754;
+  border-radius:4px;
+  color:#fff;
+  font-size:0.8rem;
+}
+.photoimg{
+  width:33%;
+  float:left;
+}
+.q-image-wrap image{
+  float:left;
+}
+.question-images{
+  width:100%;
+  height:auto;
+  overflow: hidden;
+}
+.q-image-wrap{
+  width:30%;
+  position: relative;
+  height:auto;
+  overflow: hidden;
+  float:left;
+  margin:1.5%;
+}
+.q-image-wrap icon{
+  position:absolute;
+  top:0;
+  right:0;
+}
+.report_box{
+  height:auto;
+  overflow: hidden;
+  padding-bottom: 180rpx;
+}
+
+/* 上传视屏 */
+.video{
+    background-color:rgba(0,0,0,0.2);
+    border:none;
+    width:480rpx!important;
+    height:70rpx!important;
+    line-height:70rpx!important;
+    font-size:28rpx;
+    border-radius:6rpx;
+    display:inline-block;
+    vertical-align:middle;
+    float:right;
+    margin-top:12rpx;
+    margin-right:5rpx;
+    color: #fff;
+
+}
+

@@ -1,0 +1,16 @@
+需要调用接口的时候：
+引用   const Trequest = require('../../utils/request.js')；
+
+
+Trequest({
+      url:'article/getlist',
+      data:{
+        legalservice_id: options.id
+      },
+      callback(res){
+        that.setData({
+          newsList: res.data.data
+        })
+        console.log(res.data.data,'88888888')
+      }
+    })
